@@ -22,7 +22,7 @@ ui.wnd:show_all()
 
 rb = { ui.rbA, ui.rbB, ui.rbC, ui.rbD, ui.rbE, ui.rbF, ui.rbG, ui.rbH}
 
-function update()
+function upd()
 x = 0
 y = 0
 z = 0
