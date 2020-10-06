@@ -15,7 +15,7 @@ ctx.add_provider_for_screen(scr, prov, gtk.STYLE_PROVIDER_PRIORITY_APPLICATION)
 
 ui = bld.objects
 
-
+ui.rbA.active = false;
 ui.wnd.title = 'lab-03-zhuravleva'
 ui.wnd.on_destroy = gtk.main_quit
 ui.wnd:show_all()

@@ -1,1 +1,6 @@
-label { color:#e7a1b0; }
+radiobutton
+{ background-color: #9dd4d0 }
+checkbutton
+{ background-color: #cd9fcf}
+label
+{color:#ffffff}
