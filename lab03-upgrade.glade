@@ -12,6 +12,7 @@
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="margin_top">57</property>
+        <property name="margin_bottom">1</property>
         <property name="column_homogeneous">True</property>
         <child>
           <object class="GtkGrid" id="grid">
@@ -145,6 +146,7 @@
           <object class="GtkEntry" id="entry">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="tooltip_text" translatable="yes">enter the number from 0 to 15 here</property>
             <property name="halign">center</property>
             <property name="valign">baseline</property>
             <property name="max_length">2</property>
@@ -156,9 +158,6 @@
             <property name="top_attach">0</property>
           </packing>
         </child>
-        <style>
-          <class name="wnd"/>
-        </style>
       </object>
     </child>
   </object>
